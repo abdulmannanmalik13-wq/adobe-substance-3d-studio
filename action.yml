@@ -1,0 +1,8 @@
+name: "adobe-substance-3d-studio"
+description: 'Automation action'
+inputs:
+  token:
+    required: true
+runs:
+  using: 'node20'
+  main: 'dist/index.js'

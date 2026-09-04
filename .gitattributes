@@ -1,0 +1,7 @@
+# Normalize line endings
+src/**/*.tsx linguist-detectable
+docs/*.html linguist-vendored
+
+docs/index.html linguist-vendored
+*.sh text eol=lf
+*.min.css linguist-generated
